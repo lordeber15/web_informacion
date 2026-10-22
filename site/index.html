@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>German Lopez | UE118</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(180deg, #0f2347 0%, #1d3a6e 50%, #3b6db3 100%);
+      background-attachment: fixed;
+      display: flex;
+      justify-content: center;
+      padding: 48px 16px;
+      color: #fff;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 580px;
+      text-align: center;
+    }
+
+    .avatar {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      /* el logo es azul marino sobre transparente: se pinta en blanco para que contraste con el fondo */
+      filter: brightness(0) invert(1);
+    }
+
+    h1 {
+      margin-top: 16px;
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+
+    .bio {
+      margin-top: 4px;
+      font-size: 1rem;
+      color: #8fb8ea;
+    }
+
+    .links {
+      margin-top: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 16px 20px;
+      border-radius: 999px;
+      background: #fff;
+      color: #1d3a6e;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+      transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease;
+    }
+
+    .btn:hover {
+      transform: scale(1.03);
+      background: #8fb8ea;
+      color: #0f2347;
+    }
+
+    .btn svg {
+      width: 22px;
+      height: 22px;
+      fill: currentColor;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.85rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <!-- Reemplaza avatar.jpg por tu foto (colócala en la carpeta site/) -->
+    <img class="avatar" src="avatar.png" alt="Logo Unidad Ejecutora 118">
+
+    <h1>GERMAN ABELARDO LOPEZ HERENCIA</h1>
+    <p class="bio">Director Ejecutivo</p>
+
+    <nav class="links">
+      <!-- Cambia la URL por tu página web -->
+      <a class="btn" href="https://www.ue118.gob.pe" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24">
+          <path
+            d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm6.93 6h-2.95a15.7 15.7 0 0 0-1.38-3.56A8.03 8.03 0 0 1 18.93 8zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14a7.9 7.9 0 0 1 0-4h3.38a16.5 16.5 0 0 0 0 4H4.26zm.81 2h2.95c.32 1.25.78 2.45 1.38 3.56A7.99 7.99 0 0 1 5.07 16zm2.95-8H5.07a7.99 7.99 0 0 1 4.33-3.56A15.7 15.7 0 0 0 8.02 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66a14.7 14.7 0 0 1 0-4h4.68a14.7 14.7 0 0 1 0 4zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56zM16.36 14a16.5 16.5 0 0 0 0-4h3.38a7.9 7.9 0 0 1 0 4h-3.38z" />
+        </svg>
+        UNIDAD EJECUTORA 118
+      </a>
+
+      <!-- Cambia el número (formato internacional, sin + ni espacios) -->
+      <a class="btn" href="https://wa.me/51942946486" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24">
+          <path
+            d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.79-1.47-1.75-1.65-2.05-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.5h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35zM12.04 21.5h-.01a9.45 9.45 0 0 1-4.82-1.32l-.35-.2-3.58.94.96-3.49-.23-.36a9.43 9.43 0 0 1-1.45-5.03c0-5.22 4.25-9.47 9.48-9.47a9.4 9.4 0 0 1 6.7 2.78 9.4 9.4 0 0 1 2.77 6.7c0 5.23-4.25 9.45-9.47 9.45zm8.06-17.53A11.3 11.3 0 0 0 12.04.63C5.76.63.65 5.74.65 12.02c0 2 .52 3.96 1.52 5.69L.55 23.6l6.04-1.58a11.4 11.4 0 0 0 5.44 1.39h.01c6.28 0 11.39-5.11 11.39-11.39 0-3.04-1.18-5.9-3.33-8.05z" />
+        </svg>
+        WhatsApp
+      </a>
+
+      <!-- Llamada directa -->
+      <a class="btn" href="tel:+51942946486">
+        <svg viewBox="0 0 24 24">
+          <path
+            d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2z" />
+        </svg>
+        Llamar
+      </a>
+    </nav>
+
+    <footer>&copy; 2026 UE118</footer>
+  </main>
+</body>
+
+</html>
